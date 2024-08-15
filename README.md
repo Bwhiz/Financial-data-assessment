@@ -1,5 +1,7 @@
 # Ticker Announcement Filter
 
+[App Image](https://github.com/Bwhiz/Financial-data-assessment/blob/master/assets/ticker_app.jpg)
+
 ## Overview
 
 This Streamlit application allows users to filter announcements related to stock tickers. The primary functionalities include:
