@@ -43,7 +43,7 @@ if apply_filter_button:
 else:
     # Apply ticker filter
     if selected_ticker != "All":
-        filtered_data = data[data["ticker"] == selected_ticker]
+        filtered_data = data[data["issuer_code"] == selected_ticker]
     else:
         filtered_data = data
 
