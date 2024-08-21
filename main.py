@@ -12,7 +12,7 @@ st.set_page_config(
 st.title("TICKER Announcement Filter")
 
 # cache data retrieval
-@st.cache_resource(ttl=1800, show_spinner="Fetching data ...")
+@st.cache_resource(ttl=3600, show_spinner="Fetching data ...")
 def get_data(path_to_dataset):
     return pd.read_csv(path_to_dataset)
 
@@ -59,5 +59,5 @@ else:
 #     st.write(f"Containing text: '{search_text}'")
 
 
-# # Display filtered DataFrame
+# Display filtered DataFrame
 # st.dataframe(filtered_data)
